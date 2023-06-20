@@ -1,0 +1,25 @@
+a {
+  color: skyblue;
+}
+
+a:link {
+  color: orange;
+  background-color: greenyellow;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: white;
+  background-color: blue;
+}
+
+p:not(.world) {
+  color: violet;
+}
+
+.container div:nth-child(1) {
+  color: blue;
+}
