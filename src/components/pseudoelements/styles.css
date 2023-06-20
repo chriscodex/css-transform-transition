@@ -1,0 +1,7 @@
+.pseudoelement::before {
+  content: 'before';
+}
+
+.pseudoelement::after {
+  content: 'after';
+}
