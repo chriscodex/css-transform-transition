@@ -1,6 +1,7 @@
 import './App.css';
 import { Translate } from './components/Transform/Translate';
 import { Scale } from './components/Transform/Scale';
+import { Skew } from './components/Transform/Skew';
 // import { PseudoClases } from './components/pseudoclases';
 // import { PseudoElements } from './components/pseudoelements';
 
@@ -11,6 +12,8 @@ function App() {
       <Translate />
       <p>Scale</p>
       <Scale />
+      <p>Skew</p>
+      <Skew />
     </>
   );
 }
