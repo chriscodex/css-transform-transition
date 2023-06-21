@@ -1,14 +1,15 @@
 import './App.css';
 import { PseudoClases } from './components/pseudoclases';
 import { PseudoElements } from './components/pseudoelements';
-import { Transform } from './components/Transform/Translate';
+import { Translate } from './components/Transform/Translate';
 
 function App() {
   return (
     <>
       {/* <PseudoClases />
       <PseudoElements /> */}
-      <Transform />
+      <p>Translate</p>
+      <Translate />
     </>
   );
 }

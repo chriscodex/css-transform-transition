@@ -1,6 +1,6 @@
 import './style.css'
 
-function Transform() {
+function Translate() {
   return (
     <div className='shadow'>
       <div className='circle'></div>
@@ -8,4 +8,4 @@ function Transform() {
   )
 }
 
-export { Transform }
+export { Translate }
