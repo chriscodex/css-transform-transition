@@ -1,0 +1,12 @@
+.square-rotate {
+  width: 150px;
+  height: 100px;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  transform-origin: right top;
+}
+
+.square-rotate:hover {
+  transform: rotate(20deg);
+  /* transform: rotateY(30deg); */
+}
