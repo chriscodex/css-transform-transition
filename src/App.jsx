@@ -1,17 +1,18 @@
 import './App.css';
-import { Translate } from './components/Transform/Translate';
-import { Scale } from './components/Transform/Scale';
-import { Skew } from './components/Transform/Skew';
-import { Rotate } from './components/Transform/Rotate';
-import { StylePerspective } from './components/Transform/StylePerspective';
-import { BackfaceVisibility } from './components/Transform/BackfaceVisibility';
+// import { Translate } from './components/Transform/Translate';
+// import { Scale } from './components/Transform/Scale';
+// import { Skew } from './components/Transform/Skew';
+// import { Rotate } from './components/Transform/Rotate';
+// import { StylePerspective } from './components/Transform/StylePerspective';
+// import { BackfaceVisibility } from './components/Transform/BackfaceVisibility';
+import { Parallax } from './components/Parallax';
 // import { PseudoClases } from './components/pseudoclases';
 // import { PseudoElements } from './components/pseudoelements';
 
 function App() {
   return (
     <>
-      <p>Translate</p>
+      {/* <p>Translate</p>
       <Translate />
       <p>Scale</p>
       <Scale />
@@ -22,7 +23,8 @@ function App() {
       <p>Style & Perspective</p>
       <StylePerspective />
       <p>Backface Visibility</p>
-      <BackfaceVisibility />
+      <BackfaceVisibility /> */}
+      <Parallax />
     </>
   );
 }
