@@ -6,8 +6,8 @@ import { Transform } from './components/Transform';
 function App() {
   return (
     <>
-      <PseudoClases />
-      <PseudoElements />
+      {/* <PseudoClases />
+      <PseudoElements /> */}
       <Transform />
     </>
   );
