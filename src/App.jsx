@@ -1,30 +1,36 @@
+import { useRoutes, BrowserRouter } from 'react-router-dom';
 import './App.css';
-// import { Translate } from './components/Transform/Translate';
-// import { Scale } from './components/Transform/Scale';
-// import { Skew } from './components/Transform/Skew';
-// import { Rotate } from './components/Transform/Rotate';
-// import { StylePerspective } from './components/Transform/StylePerspective';
-// import { BackfaceVisibility } from './components/Transform/BackfaceVisibility';
 import { Parallax } from './components/Parallax';
 // import { PseudoClases } from './components/pseudoclases';
 // import { PseudoElements } from './components/pseudoelements';
+import { Home } from './pages/Home';
+import { Transform } from './pages/Transform';
+
+const AppRoutes = () => {
+  let routes = useRoutes([
+    {
+      path: '/',
+      element: <Home />
+    },
+    {
+      path: '/transform',
+      element: <Transform />
+    },
+    {
+      path: '/parallax',
+      element: <Parallax />
+    },
+  ])
+
+  return routes
+}
 
 function App() {
   return (
     <>
-      {/* <p>Translate</p>
-      <Translate />
-      <p>Scale</p>
-      <Scale />
-      <p>Skew</p>
-      <Skew />
-      <p>Rotate & Origin</p>
-      <Rotate />
-      <p>Style & Perspective</p>
-      <StylePerspective />
-      <p>Backface Visibility</p>
-      <BackfaceVisibility /> */}
-      <Parallax />
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
     </>
   );
 }

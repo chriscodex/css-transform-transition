@@ -1,4 +1,5 @@
 .parallax-container {
+  margin: 0;
   width: 100%;
   height: 100vh;
   perspective: 8px;
@@ -53,11 +54,11 @@
 }
 
 .two {
-  right: 70%;
+  left: 30%;
   top: 400px;
 }
 
 .three {
-  right: 70%;
+  left: 30%;
   bottom: -1200px;
 }
