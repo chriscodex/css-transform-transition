@@ -11,6 +11,9 @@ function Home() {
         <li>
           <NavLink to="/parallax">Parallax</NavLink>
         </li>
+        <li>
+          <NavLink to="/transition">Transition</NavLink>
+        </li>
       </ul>
     </div>
   );
