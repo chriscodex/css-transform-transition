@@ -1,0 +1,13 @@
+.action-container {
+  margin: 40px;
+  background-color: plum;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: transform 2s linear;
+}
+
+.action-container:hover {
+  transform: translateX(200px);
+  transition: transform 1s linear;
+}
