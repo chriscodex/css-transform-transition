@@ -1,0 +1,46 @@
+.timing-container:hover .timing-circle {
+  transform: translateX(200px);
+}
+
+.timing-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.one {
+  background-color: Thistle;
+  transition: transform 1s linear;
+  transition-delay: 0.5s;
+}
+
+.two {
+  background-color: Plum;
+  transition: transform 1s ease;
+  transition-delay: 1.5s;
+}
+
+.three {
+  background-color: Violet;
+  transition: transform 1s ease-in;
+  transition-delay: 2.5s;
+}
+
+.four {
+  background-color: Orchid;
+  transition: transform 1s ease-out;
+  transition-delay: 3.5s;
+}
+
+.five {
+  background-color: Fuchsia;
+  transition: transform 1s ease-in-out;
+  transition-delay: 4.5s;
+}
+
+.six {
+  background-color: Magenta;
+  transition: transform 1s cubic-bezier(.17,.67,.94,.38);
+  transition-delay: 5.5s;
+}
