@@ -1,0 +1,24 @@
+.willChange-container button {
+  background-color: palegoldenrod;
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.willChange-container .better {
+  will-change: transform;
+  transition: transform 500ms;
+}
+
+.willChange-container .better:hover {
+  transform: translateY(10px);
+}
+
+.willChange-container .worst {
+  will-change: margin-top;
+  transition: margin-top 500ms;
+}
+
+.willChange-container .worst:hover {
+  margin-top: 10px;
+}
