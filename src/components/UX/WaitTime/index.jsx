@@ -2,8 +2,8 @@ import './styles.css';
 
 function WaitTime() {
   return (
-    <div>
-      <ul>
+    <div className='waitTime-container'>
+      <ul className='nav'>
         <li>
           <a href="/">Mujer</a>
           <ul>
