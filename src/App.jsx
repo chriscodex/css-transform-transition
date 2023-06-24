@@ -6,6 +6,7 @@ import { Parallax } from './components/Parallax';
 import { Home } from './pages/Home';
 import { Transform } from './pages/Transform';
 import { Transition } from './pages/Transition';
+import { Ux } from './pages/Ux';
 
 const AppRoutes = () => {
   let routes = useRoutes([
@@ -24,6 +25,10 @@ const AppRoutes = () => {
     {
       path: '/transition',
       element: <Transition />
+    },
+    {
+      path: '/ux',
+      element: <Ux />
     },
   ])
 

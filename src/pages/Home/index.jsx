@@ -14,6 +14,9 @@ function Home() {
         <li>
           <NavLink to="/transition">Transition</NavLink>
         </li>
+        <li>
+          <NavLink to="/ux">UX</NavLink>
+        </li>
       </ul>
     </div>
   );
