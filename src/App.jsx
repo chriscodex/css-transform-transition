@@ -1,12 +1,13 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom';
-import './App.css';
-import { Parallax } from './components/Parallax';
 // import { PseudoClases } from './components/pseudoclases';
 // import { PseudoElements } from './components/pseudoelements';
+import { Parallax } from './components/Parallax';
 import { Home } from './pages/Home';
 import { Transform } from './pages/Transform';
 import { Transition } from './pages/Transition';
 import { Ux } from './pages/Ux';
+import { Optimization } from './pages/Optimization';
+import './App.css';
 
 const AppRoutes = () => {
   let routes = useRoutes([
@@ -29,6 +30,10 @@ const AppRoutes = () => {
     {
       path: '/ux',
       element: <Ux />
+    },
+    {
+      path: '/optimization',
+      element: <Optimization />
     },
   ])
 

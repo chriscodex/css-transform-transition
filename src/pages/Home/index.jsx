@@ -17,6 +17,9 @@ function Home() {
         <li>
           <NavLink to="/ux">UX</NavLink>
         </li>
+        <li>
+          <NavLink to="/optimization">Optimization</NavLink>
+        </li>
       </ul>
     </div>
   );
